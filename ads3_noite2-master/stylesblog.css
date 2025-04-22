@@ -33,6 +33,12 @@ h2 {
     color: #4CAF50;
 }
 
+section {
+    padding: 2em;
+    margin: 20px 0;
+    background-color: #ffffff;
+}
+
 .news-container {
     display: flex;
     flex-wrap: wrap;
@@ -85,8 +91,8 @@ form input, form button {
 }
 
 footer {
-    background-color: #1b3e1d;
-    color: white;
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 5px 0;
     position: absolute;
