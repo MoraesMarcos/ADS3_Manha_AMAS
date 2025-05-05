@@ -10,6 +10,7 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
+    padding-top: 120px;
 }
 
 header {
@@ -43,9 +44,9 @@ header p {
 }
 
 img.logo{
-    width: 115px;
-    height: 80px;
-    margin-right: 10px;
+    width: 125px;
+    height: 90px;
+    margin-right: 20px;
 }
 
 .menu ul {
@@ -61,16 +62,21 @@ img.logo{
 
 .menu ul li a {
     text-decoration: none;
-    color: #555;
-    font-weight: bold;
+    color: #000000;
+    font-weight: normal;
     padding: 5px 10px;
     border-radius: 20px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: color 0.3s, text-decoration 0.3s;
 }
 
-.menu ul li a:hover, .menu ul li a.active {
-    background-color: #ff6b6b;
-    color: white;
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.menu ul li a.active {
+    text-decoration: underline;
+    color: black;
 }
 
 nav {
@@ -114,6 +120,7 @@ section {
     padding: 2em;
     margin: 20px 0;
     background-color: #ffffff;
+    scroll-margin-top: 140px;
 }
 
 

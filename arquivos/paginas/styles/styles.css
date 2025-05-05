@@ -28,7 +28,7 @@ div.menu {
     justify-content: flex-start;
     width: 100%;
     top: 0;
-    padding: 0;
+    padding: 0 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 999;
 }
@@ -106,8 +106,72 @@ section {
     padding: 2em;
     margin: 20px 0;
     background-color: #ffffff;
+    scroll-margin-top: 140px;
 }
 
+.section-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #fff;
+    font-size: 20px;
+  }
+  
+  .section-links a {
+    color: #7b1fa2;
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .section-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background-color: #e91e63;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .section-links a:hover {
+    color: #e91e63;
+  }
+  
+  .section-links a:hover::after {
+    transform: scaleX(1);
+  }
+
+  section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  section h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.7;
+    text-align: center;
+  }
+  
+  /* Adicionais visuais para borda das seções */
+  section:not(:last-of-type) {
+    border-bottom: 4px solid #eee;
+  }
 
 /* Estilos para a Seção de Denúncias */
 #denuncie {
