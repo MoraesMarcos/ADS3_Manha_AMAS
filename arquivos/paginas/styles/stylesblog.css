@@ -255,3 +255,38 @@ footer {
     width: 100%;
     bottom: 1;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Menu ajustado para telas pequenas */
+    div.menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    /* Ajustes para a Seção de Associação */
+    #assoc {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    div.hist {
+        margin: 0;
+        padding: 20px;
+    }
+
+    #container-counter {
+        width: 100%;
+        padding: 20px;
+    }
+}
