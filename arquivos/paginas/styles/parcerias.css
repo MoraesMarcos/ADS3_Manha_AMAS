@@ -173,3 +173,45 @@ table tr:hover {
         padding: 20px;
     }
 }
+.outros-parceiros {
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px; /* Distância superior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */
+    text-align: center;
+}
+
+.outros-parceiros h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+.outros-parceiros .lista-parceiros {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.outros-parceiros .parceiro-item {
+    flex: 0 0 30%; /* Cada parceiro ocupa 30% da largura */
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para cada item */
+}
+
+.outros-parceiros .parceiro-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Imagens circulares */
+}
+
+.outros-parceiros .parceiro-item p {
+    margin-top: 10px;
+    color: #777; /* Cor suave para o texto */
+}
