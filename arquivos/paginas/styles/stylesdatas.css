@@ -136,6 +136,11 @@ section#datas h2 {
     font-size: 2rem;
 }
 
+.data-fundacao {
+    margin-top: 40px; /* Ajuste o valor conforme necessário */
+}
+
+
 .month {
     display: none;
     background-color: #fff;
