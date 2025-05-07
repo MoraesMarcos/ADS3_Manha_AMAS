@@ -76,6 +76,7 @@ header h1 {
     width: 100%; /* Garante que ocupe toda a largura */
 }
 
+
 .info-contatos h2 {
     margin-top: 0;
 }
@@ -128,7 +129,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: auto;
+    margin-top: 400px;
 }
 
 .btn-cadastro {
