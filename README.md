@@ -65,10 +65,6 @@
 
 ---
 
-### Link do site
-
-https://moraesmarcos.github.io/ADS3_Manha_AMAS
-
 ### 📄 **Formulário da AMAS**
 
 - **Formulário da AMAS:** [https://forms.gle/VCfNzDX6GhunVSkm9](https://forms.gle/VCfNzDX6GhunVSkm9)
