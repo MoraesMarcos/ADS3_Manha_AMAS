@@ -57,6 +57,7 @@ header {
     padding-top: 120px;
     min-height: 70px;
     border-bottom: #77aaff 3px solid;
+    border-bottom: #77aaff 3px solid;
 }
 
 header h1 {
@@ -67,12 +68,14 @@ header h1 {
 }
 
 .info-contatos {
-    background: #afcfdd;
+    background-color: #afcfdd; /* Cor única para o fundo */
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Garante que ocupe toda a largura */
 }
+
 
 .info-contatos h2 {
     margin-top: 0;
@@ -126,4 +129,21 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 400px;
+}
+
+.btn-cadastro {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cadastro:hover {
+    background-color: #00408d;
 }
