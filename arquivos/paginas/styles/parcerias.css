@@ -62,6 +62,7 @@ h1 {
     box-sizing: border-box;
 }
 
+/* Container apenas para os parceiros (imagens + texto) */
 #parceiros-container {
     display: flex;
     justify-content: center;
@@ -70,9 +71,9 @@ h1 {
     margin: 20px auto;
 }
 
+/* Cada parceiro ocupa 1/3 da largura */
 .parceiro {
     flex: 0 0 33.33%;
-    /* Cada membro ocupa 1/3 da largura */
     text-align: center;
     padding: 20px;
 }
@@ -95,25 +96,22 @@ h1 {
     color: #777;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+/* Container separado para a lista de parcerias (título + tabela) */
+#lista-parcerias-container {
+    max-width: 800px;
+    margin: 40px auto 60px auto; /* espaço acima e abaixo */
+    padding: 0 20px;
     text-align: center;
-    padding: 1em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
-h2 {
-    text-align: center;
-    margin-top: 40px;
+#lista-parcerias-container h2 {
+    margin-bottom: 20px;
     color: #333;
 }
 
 table {
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 0 auto;
     border-collapse: collapse;
     background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -139,6 +137,16 @@ table tr:hover {
     background-color: #e0f7ff;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     /* Menu ajustado para telas pequenas */
@@ -155,21 +163,5 @@ table tr:hover {
 
     nav li {
         margin: 10px 0;
-    }
-
-    /* Ajustes para a Seção de Associação */
-    #assoc {
-        flex-direction: column;
-        margin: 50px 0;
-    }
-
-    div.hist {
-        margin: 0;
-        padding: 20px;
-    }
-
-    #container-counter {
-        width: 100%;
-        padding: 20px;
     }
 }
