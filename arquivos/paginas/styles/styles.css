@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 /* Reset de Margens e Padding */
 body, h1, h2, p {
     margin: 0;
